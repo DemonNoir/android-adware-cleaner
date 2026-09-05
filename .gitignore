@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Testing & Cache
+.pytest_cache/
+cache/icons/*.png
+!cache/icons/.gitkeep
+cache/
+
+# Runtime Data & Reports (Sensitive customer data)
+data/*.db
+data/*.db-journal
+reports/*.pdf
+reports/*.html
+
+# OS specific
+.DS_Store
+Thumbs.db
